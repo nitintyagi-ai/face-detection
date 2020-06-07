@@ -9,11 +9,11 @@ With help of open-cv and dlib detect the face in images
 --> once dlib install check it by running  
 -->import dlib  
 --> download pretrained facial landmark detector for dlib (http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2)  
---> extract pretrained detector and provide path of it in line 23 in main.py  
+--> extract pretrained detector and provide path of it in line 23 in detect_face.py  
 
 -> install requirement.txt for other dependencies (Go to requirement.txt drive and run pip install - r requirement.txt)  
--> create input folder and put your input images (in  main.py file line 25 provide input file path)  
--> create output folder (in  main.py file line 25 provide output dir path)  
+-> create input folder and put your input images (in  detect_face.py file line 25 provide input file path)  
+-> create output folder (in  detect_face.py file line 25 provide output dir path)  
 # Run main.py file and start detecting faces. (To run multiple images load all images in a loop)
 # images
 ![alt text](https://github.com/nitintyagi-ai/face-detection/blob/master/input_images/Nitin.jpg?raw=true)![alt text](https://github.com/nitintyagi-ai/face-detection/blob/master/output/output.jpg?raw=true) 
